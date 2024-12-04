@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(235, 214, 251);
+}
+.container{
+    max-width: 1200px;
+    height: 800px;
+    background-color: aliceblue;
+    margin: 80px auto;
+}
+.box-container{
+    display: flex;
+    
+}
+.box{
+    width: 600px;
+    height: 200px;
+}
+.box1{
+    background-color: rgb(231, 202, 255);;
+}
+.box2{
+    background: rgb(227, 167, 255);
+}
+.box3{
+    background: rgb(126, 69, 168);
+}
+.box4{
+    background: rgb(171, 71, 251);
+}
+.box5{
+    background: rgb(158, 56, 239);
+}
+.box6{
+    background: rgb(118, 41, 178);
+}
+.box7{
+    background: rgb(52, 12, 83);
+}
+.box8{
+    background: rgb(86, 14, 141);
+}
+@media  screen and (width > 1200px) {
+    .container{
+        margin: 80px auto;
+    }
+    
+}
+@media  screen and (width < 400px) {
+    .container{
+        margin: 20px auto;
+    }
+    
+}

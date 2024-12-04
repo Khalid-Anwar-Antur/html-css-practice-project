@@ -1,0 +1,127 @@
+:root{
+    --body:rgb(94, 8, 8);
+    --red: rgb(255, 0, 0);
+    --mbg: rgb(167, 0, 0);
+    --cbg: rgb(255, 216, 216);
+    --lbg:rgb(94, 8, 8);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: var(--mbg);
+    
+
+}
+.nave{
+    background-color: var(--body);
+    padding-top: 20px;
+}
+nav{
+    max-width: 1200px;
+    height: 93px;
+    margin: 0px auto ;
+    
+
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+.logo{
+    width: 160px;
+    height: 40px;
+    background-color: var(--red);
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+.link{
+    width: 56px;
+    height: 40px;
+    background-color: var(--red);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.avatar{
+    background-color: var(--red);
+    height: 64px;
+    width: 64px;
+    border-radius: 100%;
+}
+
+/* nav done */
+
+.main-container{
+    /* background-color: var(--mbg); */
+}
+.card-container{
+    max-width: 1200px;
+    height: 150px;
+    margin: 36px auto;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    background-color: var(--cbg);
+    justify-content: space-between;
+    max-width: 1200px;
+    height: 150px;
+    border-radius: 12px;
+    gap: 24px;
+    padding: 24px 48px;
+}
+.cricle{
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 100%;
+    background-color: var(--red);
+}
+.lines{
+width: 1028px;
+height: 100px;
+display: flex;
+flex-direction: column;
+gap: 13px;
+}
+.line{
+    height: 24px;
+    width: 100%;
+    background-color: var(--lbg);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+@media screen and (width < 450px) {
+    .avatar{
+        background-color: var(--red);
+        height: 48px;
+        width: 48px;
+        border-radius: 100%;
+    }
+    .link{
+        width: 40px;
+        height: 40px;
+        background-color: var(--red);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
